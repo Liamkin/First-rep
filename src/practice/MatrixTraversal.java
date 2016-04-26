@@ -15,21 +15,21 @@ public class MatrixTraversal {
 
         do {
 
-            for (int i = left; i < right; i++) {
+            for (int i = left; i <= right; i++) {
                 if (size == h * w){
                     break;
                 }
                 result[size] = input[top][i];
                 size++;
             }
-            for (int i = top; i < bottom; i++) {
+            for (int i = top+1; i <= bottom; i++) {
                 if (size == h * w){
                     break;
                 }
                 result[size] = input[i][right];
                 size++;
             }
-            for (int i = right; i > left; i--) {
+            for (int i = right -1; i > left; i--) {
                 if (size == h * w){
                     break;
                 }
@@ -47,7 +47,7 @@ public class MatrixTraversal {
             right--;
             left++;
             bottom--;
-        } while (size < h*w);
+        } while (size < h*w -1);
 
     return result;
     }
