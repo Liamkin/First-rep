@@ -5,18 +5,6 @@ import java.lang.Math;
  */
 public class SumDigits {
     public int sum(int number) {
-        if (number > 2)
-
-        number = Math.abs(number);
-        String digits = Integer.toString(number);
-        int x = 0;
-
-        for (int i = 0; i < digits.length(); ++i) {
-            x = x + Character.getNumericValue(digits.charAt(i));
-        }
-        return x;
-    }
-    public static long sum1(int number) {
         int result = 0;
         while (number != 0) {
             //Суммирование цифр числа
