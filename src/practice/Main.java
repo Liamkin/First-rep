@@ -46,5 +46,16 @@ public class Main {
 //        System.out.println(x);
 
 
+//        String a = "z";
+//        String b = "1";
+//        AddNumberBase36 test = new AddNumberBase36();
+//        String x = test.add(a,b);
+//        System.out.println(x);
+
+
+        int[] input = {0, 0, 0, 8, 0, 0,};
+        LonelyNumber test = new LonelyNumber();
+        int x = test.find(input);
+        System.out.println(x);
     }
 }
