@@ -8,6 +8,7 @@ public class LonelyNumber {
 
         int[] mas = new int[32];
         int temp;
+        int result = -0;
 
         for (int i=0; i<input.length; i++) {
             temp = input[i];
@@ -17,14 +18,11 @@ public class LonelyNumber {
                 temp >>>= 1;
             }
         }
-        StringBuilder number = new StringBuilder();
-
         for (int i=0; i<32; i++) {
             mas[i] %= 5;
-            number.append(mas[i]);
+            result <<= 1;
+            result += mas[i];
         }
-
-
-        return Integer.parseInt(number.reverse().toString(),2);
+        return Integer.reverse(result);
     }
 }
