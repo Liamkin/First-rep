@@ -16,9 +16,9 @@ public class InsertionSort {
                                                         // Таким образом получая наименьшее число в начале массива
 
                 if  (insSortArray[j] < insSortArray[j-1]) {
-                    int result = insSortArray[j];
+                    int temp = insSortArray[j];
                     insSortArray[j] = insSortArray[j-1];
-                    insSortArray[j-1] = result;
+                    insSortArray[j-1] = temp;
                 }
             }
         }
