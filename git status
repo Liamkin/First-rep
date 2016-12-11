@@ -1,0 +1,55 @@
+[33mcommit 6a869ffd16d49d9d276a9d463fbc3b51a49b4945[m
+Author: Liamkin <miroslav.ljamkin@gmail.com>
+Date:   Mon May 9 12:48:45 2016 +0300
+
+    Another way to do LonelyNumber class
+
+[33mcommit 6985803131ac8c4e6c8d26a515967135b6442bd8[m
+Author: Liamkin <miroslav.ljamkin@gmail.com>
+Date:   Mon May 9 12:47:25 2016 +0300
+
+    reloaded
+
+[33mcommit 130256b38b59deaa94cf607d110562615078ca9c[m
+Author: Liamkin <miroslav.ljamkin@gmail.com>
+Date:   Sat Apr 30 15:30:08 2016 +0300
+
+    reloaded
+
+[33mcommit 9bf534068842aad8ed5bb0a0583c38e4f26c0f9a[m
+Author: Liamkin <miroslav.ljamkin@gmail.com>
+Date:   Tue Apr 26 16:57:00 2016 +0300
+
+    Revert "reloaded"
+    
+    This reverts commit a0e8789c6fdffcddd09e9ba1207b1b985811b387.
+
+[33mcommit 70101299ef2bfaf1e5cfb771ce8965bb780cc4e4[m
+Author: Liamkin <miroslav.ljamkin@gmail.com>
+Date:   Tue Apr 26 16:31:53 2016 +0300
+
+    reloaded
+
+[33mcommit a0e8789c6fdffcddd09e9ba1207b1b985811b387[m
+Author: Liamkin <miroslav.ljamkin@gmail.com>
+Date:   Tue Apr 26 16:14:46 2016 +0300
+
+    reloaded
+
+[33mcommit b01600092623ffaf75e5621fc89bf0ee446a8ece[m
+Author: Liamkin <miroslav.ljamkin@gmail.com>
+Date:   Wed Mar 23 21:01:12 2016 +0200
+
+    update
+
+[33mcommit bb3a1cecaf78a1c03e80b7bd17775b5e7d7ffbbc[m
+Author: Liamkin <miroslav.ljamkin@gmail.com>
+Date:   Mon Mar 7 14:53:36 2016 +0200
+
+    10th module from new notebook
+
+[33mcommit 953fa929906a1c708d5c06f7d9b3c4671e88afd1[m
+Author: Liamkin <miroslav.ljamkin@gmail.com>
+Date:   Mon Mar 7 04:24:54 2016 +0200
+
+    :tada: Added .gitattributes & .gitignore files
